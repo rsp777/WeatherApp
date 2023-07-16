@@ -1,12 +1,6 @@
-2023-06-29T15:13:38Z - Could not detect default configuration classes for test class [com.forecast.microservice.ForecastAppApplicationTests]: ForecastAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-06-29T15:13:38Z - Found @SpringBootConfiguration com.forecast.microservice.ForecastAppApplication for test class com.forecast.microservice.ForecastAppApplicationTests
-2023-06-29T15:13:39Z - Starting ForecastAppApplicationTests using Java 20.0.1 with PID 4272 (started by Ravi in C:\Users\Ravi\spring_practice\ForecastApp)
-2023-06-29T15:13:39Z - No active profile set, falling back to 1 default profile: "default"
-2023-06-29T15:13:41Z - Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-06-29T15:13:41Z - Started ForecastAppApplicationTests in 2.442 seconds (process running for 3.552)
-2023-06-29T16:28:46Z - Could not detect default configuration classes for test class [com.forecast.microservice.ForecastAppApplicationTests]: ForecastAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-06-29T16:28:46Z - Found @SpringBootConfiguration com.forecast.microservice.ForecastAppApplication for test class com.forecast.microservice.ForecastAppApplicationTests
-2023-06-29T16:28:47Z - Starting ForecastAppApplicationTests using Java 20.0.1 with PID 18448 (started by Ravi in C:\Users\Ravi\spring_practice\ForecastApp)
-2023-06-29T16:28:47Z - No active profile set, falling back to 1 default profile: "default"
-2023-06-29T16:28:50Z - Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-06-29T16:28:50Z - Started ForecastAppApplicationTests in 3.325 seconds (process running for 4.945)
+2023-07-13T16:43:40Z - Could not detect default configuration classes for test class [com.forecast.microservice.ForecastAppApplicationTests]: ForecastAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-13T16:43:40Z - Found @SpringBootConfiguration com.forecast.microservice.ForecastAppApplication for test class com.forecast.microservice.ForecastAppApplicationTests
+2023-07-13T16:43:40Z - Starting ForecastAppApplicationTests using Java 20.0.1 with PID 20596 (started by Ravi in C:\Users\Ravi\git\forecast\ForecastApp)
+2023-07-13T16:43:40Z - No active profile set, falling back to 1 default profile: "default"
+2023-07-13T16:43:42Z - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-13T16:43:42Z - Started ForecastAppApplicationTests in 2.42 seconds (process running for 3.53)

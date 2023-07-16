@@ -1,6 +1,8 @@
 package com.forecast.microservice.service;
 
 import java.io.IOException;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -70,17 +72,17 @@ public class ForecastService {
 	}
 
 	public String encodedCity(String city) {
-		
-		if (city.matches(".*\\s.*") && city != null) {
+//		if (city.matches(".*\\s.*") && city != null) {
+		if (city != null) {
 			logger.info("City with space : " + city);
-			Pattern p = Pattern.compile("[\\s]");
-			Matcher mat = p.matcher(city);
-			encodedCity = mat.replaceAll("");
+			String trimmedCity = city.trim();
+			encodedCity = URLEncoder.encode(trimmedCity, StandardCharsets.UTF_8);
+//			Pattern p = Pattern.compile("\\s+");
+//			Matcher mat = p.matcher(city);
+//			encodedCity = mat.replaceAll("");
 			logger.info("City with no space : " + encodedCity);
-
 			return encodedCity;
 		}
-		logger.info("Perfect City with no spaces : "+city);
 		return city;
 
 	}
