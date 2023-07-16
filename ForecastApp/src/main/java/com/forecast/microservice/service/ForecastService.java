@@ -81,7 +81,6 @@ public class ForecastService {
 //			Matcher mat = p.matcher(city);
 //			encodedCity = mat.replaceAll("");
 			logger.info("City with no space : " + encodedCity);
-
 			return encodedCity;
 		}
 		return city;
