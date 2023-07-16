@@ -37,6 +37,7 @@ public class ForecastController {
 	public ForecastInfo getForecastInfo(@PathVariable String city)
 			throws ClientProtocolException, IOException, CityNotFoundException {
 		forecastInfo = forecastService.getForecastInfo(city);	
+		
 		if (forecastInfo.getCod() == 404) {
 			throw new CityNotFoundException("city not found : " + city);
 		}
