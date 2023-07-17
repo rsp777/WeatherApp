@@ -1,0 +1,83 @@
+2023-07-16T20:10:28Z - Starting ForecastAppApplication using Java 20.0.1 with PID 38824 (C:\Users\Ravi\git\forecast\ForecastApp\target\classes started by Ravi in C:\Users\Ravi\git\forecast\ForecastApp)
+2023-07-16T20:10:28Z - No active profile set, falling back to 1 default profile: "default"
+2023-07-16T20:10:28Z - Tomcat initialized with port(s): 8090 (http)
+2023-07-16T20:10:28Z - Initializing ProtocolHandler ["http-nio-8090"]
+2023-07-16T20:10:28Z - Starting service [Tomcat]
+2023-07-16T20:10:28Z - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-16T20:10:28Z - Initializing Spring embedded WebApplicationContext
+2023-07-16T20:10:28Z - Root WebApplicationContext: initialization completed in 375 ms
+2023-07-16T20:10:28Z - LiveReload server is running on port 35729
+2023-07-16T20:10:28Z - Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-16T20:10:28Z - Starting ProtocolHandler ["http-nio-8090"]
+2023-07-16T20:10:28Z - Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-16T20:10:28Z - Started ForecastAppApplication in 0.575 seconds (process running for 767.73)
+2023-07-16T20:11:28Z - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-16T20:11:28Z - Initializing Servlet 'dispatcherServlet'
+2023-07-16T20:11:28Z - Completed initialization in 0 ms
+2023-07-16T22:06:47Z - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-07-16T22:06:47Z - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x890x150xbb0x87a0xef0xad0xea0xce0x000xe60x8c0xb4OP`l0xc40xdeH0x840xb00x16s0x9d0xb20x8c0xc60xe2R;0xe5 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-07-16T22:07:08Z - Application shutdown requested.
+2023-07-16T22:07:08Z - Pausing ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:07:08Z - Stopping service [Tomcat]
+2023-07-16T22:07:08Z - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-16T22:07:08Z - Stopping ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:07:08Z - Destroying ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:39Z - Starting ForecastAppApplication using Java 20.0.1 with PID 6176 (C:\Users\Ravi\git\forecast\ForecastApp\target\classes started by Ravi in C:\Users\Ravi\git\forecast\ForecastApp)
+2023-07-16T22:10:39Z - No active profile set, falling back to 1 default profile: "default"
+2023-07-16T22:10:39Z - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-16T22:10:39Z - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-16T22:10:41Z - Tomcat initialized with port(s): 8090 (http)
+2023-07-16T22:10:41Z - Initializing ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:41Z - Starting service [Tomcat]
+2023-07-16T22:10:41Z - Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-16T22:10:41Z - Initializing Spring embedded WebApplicationContext
+2023-07-16T22:10:41Z - Root WebApplicationContext: initialization completed in 1517 ms
+2023-07-16T22:10:42Z - Unable to start LiveReload server
+2023-07-16T22:10:42Z - Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-16T22:10:42Z - Starting ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:42Z - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-07-16T22:10:42Z - Pausing ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:42Z - Stopping service [Tomcat]
+2023-07-16T22:10:42Z - Stopping ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:42Z - Destroying ProtocolHandler ["http-nio-8090"]
+2023-07-16T22:10:42Z - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-16T22:10:42Z - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+

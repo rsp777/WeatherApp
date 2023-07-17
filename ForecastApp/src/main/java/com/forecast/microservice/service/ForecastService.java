@@ -24,10 +24,6 @@ import com.forecast.microservice.entity.ForecastInfo;
 public class ForecastService {
 
 	private final Logger logger = Logger.getLogger(ForecastService.class.getName());
-	private static final String API_KEY = "f777fa895ebe5cb38334176de19e5693";
-	private static final String FORECAST_API_URL = "http://api.openweathermap.org/data/2.5/forecast";
-	private static final String FORECAST_PARMS = "%s?q=%s&appid=%s&units=metric&lang=en&cnt=%s";
-
 	private ForecastInfo forecastInfo;
 	private final HttpClient httpClient;
 	private final ObjectMapper objectMapper;
@@ -42,13 +38,12 @@ public class ForecastService {
 
 	}
 
-	public ForecastInfo getForecastInfo(String city) throws IOException, ClientProtocolException {
+	public ForecastInfo getForecastInfo(String city, String forecastUrl, String weatherKey, String forecastParams) throws IOException, ClientProtocolException {
 		if (city != null) {
 			encodedCity = encodedCity(city);
 			String cnt = "5";
 			cnt.replace(" ", "");
-			String jsonForecastResponse = jsonForecastResponse(FORECAST_PARMS, FORECAST_API_URL, encodedCity, API_KEY,
-					cnt);
+			String jsonForecastResponse = jsonForecastResponse(forecastParams,forecastUrl, encodedCity, weatherKey,cnt);
 			objectMapper.setSerializationInclusion(Include.NON_NULL);
 			forecastInfo = objectMapper.readValue(jsonForecastResponse, ForecastInfo.class);
 			logger.info("ForecastInfo : "+forecastInfo);
