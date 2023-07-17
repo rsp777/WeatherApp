@@ -57,7 +57,6 @@ public class ForecastController {
 	
 	@ExceptionHandler
 	public ResponseEntity<WeatherResponse> notFoundResponseEntity(CityNotFoundException cnfe) {
-
 		WeatherResponse weatherResponse = new WeatherResponse();
 		weatherResponse.setCod(HttpStatus.NOT_FOUND.value());
 		weatherResponse.setMessage(cnfe.getMessage());
