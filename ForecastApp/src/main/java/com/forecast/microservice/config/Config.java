@@ -27,16 +27,16 @@ public class Config {
 	private Environment environment;
 	
 	public String getKey() {
-		logger.info("API_KEY fetched");
+//		logger.info("API_KEY fetched");
 		return environment.getProperty("weather.key");
 	}
 	public String getUrl() {
-		logger.info("API_URL fetched");
+//		logger.info("API_URL fetched");
 		return environment.getProperty("weather.url");
 	}
 	
 	public String getParams() {
-		logger.info("API_PARAMS fetched");
+//		logger.info("API_PARAMS fetched");
 		return environment.getProperty("weather.params");
 	}
 	
