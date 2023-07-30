@@ -43,7 +43,6 @@ public class ForecastController {
 		String forecastUrl = config.getUrl();
 		String weatherKey = config.getKey();
 		String forecastParams = config.getParams();
-		logger.info(forecastUrl+weatherKey+forecastParams);
 		forecastInfo = forecastService.getForecastInfo(city,  forecastUrl,  weatherKey,  forecastParams);	
 		
 		if (forecastInfo.getCod() == 404) {
