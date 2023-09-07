@@ -29,8 +29,6 @@ public class ForecastService {
 	private final ObjectMapper objectMapper;
 
 	public String encodedCity;
-	// @Autowired
-	// private HttpServletRequest requestt;
 
 	public ForecastService() {
 		httpClient = HttpClients.createDefault();
