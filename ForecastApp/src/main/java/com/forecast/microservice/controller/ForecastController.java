@@ -28,7 +28,6 @@ public class ForecastController {
 	@Autowired
 	public Config  config;
 	private final Logger logger = Logger.getLogger(ForecastController.class.getName());
-
 	private ForecastService forecastService;
 	private ForecastInfo forecastInfo;
 
